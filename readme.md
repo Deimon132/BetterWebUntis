@@ -3,13 +3,17 @@ This Package is an add-on for the [WebUntis](https://github.com/python-webuntis/
 
 
 ## Quickstart
-1. Download this Directory and put it in your project directory
+1. Download this Directory and put it in your project directory. Or just download the `main.py` file.
 2. Run `pip install webuntis requests pytz` to install the required libraries
 
 1. Import the package
 ```python
 from BetterWebUntis import WebUntis
 ```
+If only the `main.py` file is downloaded you have to import it like this:
+```python
+from main import WebUntis
+``` 
 
 2. Create a WebUntis object
 ```python
