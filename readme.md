@@ -23,6 +23,8 @@ webuntis = Webuntis(
     url= "url of your schools webuntis login page",
 )
 ```
+To get the url go to [Webuntis](https://webuntis.com/) and search for your school. Then click on the school and copy the url of the login page.
+<br>
 You can set the `port` attribute if your school uses a different port. The default port is 8080.
 
 3. Get your timetable
