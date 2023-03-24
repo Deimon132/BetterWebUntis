@@ -54,6 +54,7 @@ WebUntis(
 | teachers | list | A list of all teachers |
 | rooms | list | A list of all rooms |
 | holidays | list | A list of all holidays |
+
 Note: Some attributes might be empty if they are not provided.
 
 #### Methods
