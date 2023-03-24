@@ -4,7 +4,7 @@ This Package is an add-on for the [WebUntis](https://github.com/python-webuntis/
 
 ## Quickstart
 1. Download this Directory and put it in your project directory
-2. Run `pip install -r requirements.txt` to install the required libraries
+2. Run `pip install webuntis requests pytz` to install the required libraries
 
 1. Import the package
 ```python
@@ -32,7 +32,7 @@ timetable = webuntis.get_timetable(
 
 ## Alternitives
 ### Not use Url
-If you don't want to use the url you can give other atributes. But it might be hard to get them. 
+If you don't want to use the url you can give other atributes instead. But it might be hard to get them. 
 ```python
 WebUntis(
     username= "Your username",
